@@ -1,6 +1,5 @@
 describe('encode', function(message) {
-  it("it will create the width", function() {
-    expect(encode("aaaaaaaaaaaaaaaa")).to.equal(4);
+  it("add the right spaces", function() {
+    expect(encode("abcdefghi")).to.equal("adgbe hcfi");
   });
-
 });
